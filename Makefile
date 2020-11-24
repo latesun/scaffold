@@ -1,4 +1,5 @@
 BINARY="app"
+FileList := `go list ./...`
 
 .PHONY: run
 run:
@@ -21,3 +22,7 @@ fmt:
 clean:
 	@if [ -f ${BINARY} ] ; then rm ${BINARY} ; fi
 
+
+.PHONY: lint
+lint:
+	golangci-lint run
