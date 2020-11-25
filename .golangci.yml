@@ -14,7 +14,7 @@ linters:
 
 linters-settings:
   govet:
-    - check-shadowing: true
-    - check-unreacheable: true
-    - check-rangeloops: true
-    - check-copylocks: true
+    check-shadowing: true
+    check-unreacheable: true
+    check-rangeloops: true
+    check-copylocks: true
