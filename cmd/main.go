@@ -10,3 +10,7 @@ func main() {
 	configs.Init()
 	fmt.Println("Hello World")
 }
+
+func Hello() {
+	fmt.Println("Hello World")
+}

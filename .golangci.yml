@@ -12,6 +12,8 @@ linters:
     - varcheck
     - scopelint
     - goimports
+    - errcheck
+    - lll
 
 linters-settings:
   govet:
